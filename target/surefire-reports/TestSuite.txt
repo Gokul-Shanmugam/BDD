@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.978 s <<< FAILURE! - in TestSuite
+feature(runner.TestRunner)  Time elapsed: 20.14 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Free CRM software in the cloud for sales and service] but found [Free CRM in the cloud software boosts sales]
+	at runner.TestRunner.feature(TestRunner.java:31)
+Caused by: java.lang.AssertionError: expected [Free CRM software in the cloud for sales and service] but found [Free CRM in the cloud software boosts sales]
+

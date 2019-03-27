@@ -1,4 +1,4 @@
-@tst
+@tst @reg @sasnity
 Feature: Free CRM Login Feature
 
 Scenario Outline: Free Login Test Scenario
@@ -13,4 +13,4 @@ Then Close the browser
 Examples:
 	| username | password |
 	| naveenk  | test@123 |
-		
+		   

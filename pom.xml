@@ -3,6 +3,10 @@
   <groupId>cucumber</groupId>
   <artifactId>cucumber_demo</artifactId>
   <version>0.0.1</version>
+     <properties>
+      <jre.level>1.8</jre.level>
+      <jdk.level>1.8</jdk.level>
+   </properties>
   
   <dependencies>
   	<dependency> 

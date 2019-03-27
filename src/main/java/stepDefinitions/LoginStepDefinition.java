@@ -12,9 +12,10 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+
 public class LoginStepDefinition{
 
-	 static WebDriver driver;
+	  WebDriver driver;
 
 	
 	 @Given("^user is on Login Page$")

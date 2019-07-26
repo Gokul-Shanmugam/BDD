@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 15,
+        "line": 16,
         "name": "Free Login Test Scenario",
         "description": "",
         "id": "free-crm-login-feature;free-login-test-scenario;;2",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7900301682,
+              "duration": 14972990824,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user is on Login Page",
             "match": {
               "location": "LoginStepDefinition.user_already_on_login_page()"
@@ -24,11 +24,10 @@
           },
           {
             "result": {
-              "duration": 38957500,
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027DESKTOP-I6T4BAQ\u0027, ip: \u0027192.168.43.96\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Gokul\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64676}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}\nSession ID: 1cd1c7d0506d4e8dfcabeea9f7c4755f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:277)\r\n\tat stepDefinitions.LoginStepDefinition.title_of_login_page_is_free_CRM(LoginStepDefinition.java:31)\r\n\tat ✽.When title of login page is Free CRM(login.feature:7)\r\n",
-              "status": "failed"
+              "duration": 8511159,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "title of login page is Free CRM",
             "match": {
               "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
@@ -37,9 +36,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 239106046,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user enters \"naveenk\" and \"test@123\"",
             "match": {
               "arguments": [
@@ -62,9 +62,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6385546220,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "user clicks on login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_login_button()"
@@ -73,9 +74,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 49823360,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "user is on home page",
             "match": {
               "location": "LoginStepDefinition.user_is_on_hopme_page()"
@@ -84,9 +86,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 681059956,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Close the browser",
             "match": {
               "location": "LoginStepDefinition.close_the_browser()"
@@ -106,6 +109,10 @@
           {
             "line": 1,
             "name": "@tst"
+          },
+          {
+            "line": 4,
+            "name": "@SIT`"
           }
         ]
       }
